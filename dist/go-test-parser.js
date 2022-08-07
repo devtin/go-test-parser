@@ -1,5 +1,5 @@
 /*!
- * go-test-parser v1.1.0
+ * go-test-parser v1.0.0
  * (c) 2021-2022 Martin Rafael Gonzalez <tin@devtin.io>
  * MIT
  */
