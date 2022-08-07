@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getFnBlockedContent() retrieves metadata from a particular set of convey functions 1`] = `
+Object {
+  "Convey": Array [
+    Object {
+      "Convey": Array [
+        Object {
+          "Convey": Array [],
+          "code": "// some
+// test
+// code
+// block",
+          "end": 5,
+          "start": 0,
+          "title": "Test A-1",
+        },
+        Object {
+          "Convey": Array [],
+          "code": "// some
+// test
+// code
+// block",
+          "end": 11,
+          "start": 6,
+          "title": "Test A-2",
+        },
+      ],
+      "code": "Convey(\\"Test A-1\\", func() {
+	// some
+	// test
+	// code
+	// block
+})
+Convey(\\"Test A-2\\", func() {
+	// some
+	// test
+	// code
+	// block
+})",
+      "end": 13,
+      "start": 0,
+      "title": "Test A",
+    },
+    Object {
+      "Convey": Array [
+        Object {
+          "Convey": Array [],
+          "code": "// some
+// test
+// code
+// block",
+          "end": 5,
+          "start": 0,
+          "title": "Test B-1",
+        },
+        Object {
+          "Convey": Array [],
+          "code": "// some
+// test
+// code
+// block",
+          "end": 11,
+          "start": 6,
+          "title": "Test B-2",
+        },
+      ],
+      "code": "Convey(\\"Test B-1\\", func() {
+	// some
+	// test
+	// code
+	// block
+})
+Convey(\\"Test B-2\\", func() {
+	// some
+	// test
+	// code
+	// block
+})",
+      "end": 28,
+      "start": 15,
+      "title": "Test B",
+    },
+  ],
+}
+`;
+
+exports[`parse() retrieves metadata from a go test file 1`] = `
+Array [
+  Object {
+    "Convey": Array [
+      Object {
+        "Convey": Array [
+          Object {
+            "Convey": Array [],
+            "code": "// some
+// test
+// code
+// block",
+            "end": 5,
+            "start": 0,
+            "title": "Test A-1",
+          },
+          Object {
+            "Convey": Array [],
+            "code": "// some
+// test
+// code
+// block",
+            "end": 11,
+            "start": 6,
+            "title": "Test A-2",
+          },
+        ],
+        "code": "Convey(\\"Test A-1\\", func() {
+	// some
+	// test
+	// code
+	// block
+})
+Convey(\\"Test A-2\\", func() {
+	// some
+	// test
+	// code
+	// block
+})",
+        "end": 15,
+        "start": 2,
+        "title": "Test A",
+      },
+      Object {
+        "Convey": Array [
+          Object {
+            "Convey": Array [],
+            "code": "// some
+// test
+// code
+// block",
+            "end": 5,
+            "start": 0,
+            "title": "Test B-1",
+          },
+          Object {
+            "Convey": Array [],
+            "code": "// some
+// test
+// code
+// block",
+            "end": 11,
+            "start": 6,
+            "title": "Test B-2",
+          },
+        ],
+        "code": "Convey(\\"Test B-1\\", func() {
+	// some
+	// test
+	// code
+	// block
+})
+Convey(\\"Test B-2\\", func() {
+	// some
+	// test
+	// code
+	// block
+})",
+        "end": 30,
+        "start": 17,
+        "title": "Test B",
+      },
+    ],
+    "code": "// some setup
+
+Convey(\\"Test A\\", t, func() {
+	Convey(\\"Test A-1\\", func() {
+		// some
+		// test
+		// code
+		// block
+	})
+	Convey(\\"Test A-2\\", func() {
+		// some
+		// test
+		// code
+		// block
+	})
+})
+
+Convey(\\"Test B\\", t, func() {
+	Convey(\\"Test B-1\\", func() {
+		// some
+		// test
+		// code
+		// block
+	})
+	Convey(\\"Test B-2\\", func() {
+		// some
+		// test
+		// code
+		// block
+	})
+})",
+    "end": 40,
+    "start": 8,
+    "title": "SomeTest",
+  },
+]
+`;
