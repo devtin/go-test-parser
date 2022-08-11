@@ -6,7 +6,11 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 )
 
-func SomeTest(t *testing.T) {
+func someHelper() bool {
+	return false
+}
+
+func TestSome(t *testing.T) {
 	// some setup
 
 	Convey("Test A", t, func() {
