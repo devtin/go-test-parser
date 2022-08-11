@@ -1,5 +1,5 @@
 /*!
- * go-test-parser v1.0.0
+ * go-test-parser v1.0.1
  * (c) 2021-2022 Martin Rafael Gonzalez <tin@devtin.io>
  * MIT
  */
@@ -96,7 +96,7 @@ const parse = (source) => {
     };
 
     const results = [];
-    const pattern = new RegExp(`^func ([a-z0-9_]+)[^{]*{[\\n](.*?)[\\n]}`, 'gims');
+    const pattern = new RegExp(`^func Test([a-z0-9_]+)[^{]*{[\\n](.*?)[\\n]}`, 'gims');
     let result;
 
     while ((result = pattern.exec(source))) {
