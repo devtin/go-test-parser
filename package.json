@@ -8,7 +8,7 @@
     "parser"
   ],
   "author": "Martin Rafael Gonzalez <tin@devtin.io>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/go-test-parser.js",
   "module": "dist/go-test-parser.mjs",
   "license": "MIT",

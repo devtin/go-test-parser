@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/devtin/go-test-parser/compare/v1.0.1...v1.0.2) (2022-08-15)
+
+
+### Bug Fixes
+
+* line block numbers ([7dbfbf1](https://github.com/devtin/go-test-parser/commit/7dbfbf18ae600e84cb05c60e5c337668418264d0))
+
 ### 1.0.1 (2022-08-11)
 
 
