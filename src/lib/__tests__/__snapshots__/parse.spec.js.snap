@@ -11,8 +11,8 @@ Object {
 // test
 // code
 // block",
-          "end": 5,
-          "start": 0,
+          "end": 6,
+          "start": 1,
           "title": "Test A-1",
         },
         Object {
@@ -21,8 +21,8 @@ Object {
 // test
 // code
 // block",
-          "end": 11,
-          "start": 6,
+          "end": 12,
+          "start": 7,
           "title": "Test A-2",
         },
       ],
@@ -38,8 +38,8 @@ Convey(\\"Test A-2\\", func() {
 	// code
 	// block
 })",
-      "end": 13,
-      "start": 0,
+      "end": 14,
+      "start": 1,
       "title": "Test A",
     },
     Object {
@@ -50,8 +50,8 @@ Convey(\\"Test A-2\\", func() {
 // test
 // code
 // block",
-          "end": 5,
-          "start": 0,
+          "end": 6,
+          "start": 1,
           "title": "Test B-1",
         },
         Object {
@@ -60,8 +60,8 @@ Convey(\\"Test A-2\\", func() {
 // test
 // code
 // block",
-          "end": 11,
-          "start": 6,
+          "end": 12,
+          "start": 7,
           "title": "Test B-2",
         },
       ],
@@ -77,8 +77,8 @@ Convey(\\"Test B-2\\", func() {
 	// code
 	// block
 })",
-      "end": 28,
-      "start": 15,
+      "end": 29,
+      "start": 16,
       "title": "Test B",
     },
   ],
@@ -97,8 +97,8 @@ Array [
 // test
 // code
 // block",
-            "end": 5,
-            "start": 0,
+            "end": 6,
+            "start": 1,
             "title": "Test A-1",
           },
           Object {
@@ -107,8 +107,8 @@ Array [
 // test
 // code
 // block",
-            "end": 11,
-            "start": 6,
+            "end": 12,
+            "start": 7,
             "title": "Test A-2",
           },
         ],
@@ -124,8 +124,8 @@ Convey(\\"Test A-2\\", func() {
 	// code
 	// block
 })",
-        "end": 15,
-        "start": 2,
+        "end": 16,
+        "start": 3,
         "title": "Test A",
       },
       Object {
@@ -136,8 +136,8 @@ Convey(\\"Test A-2\\", func() {
 // test
 // code
 // block",
-            "end": 5,
-            "start": 0,
+            "end": 6,
+            "start": 1,
             "title": "Test B-1",
           },
           Object {
@@ -146,8 +146,8 @@ Convey(\\"Test A-2\\", func() {
 // test
 // code
 // block",
-            "end": 11,
-            "start": 6,
+            "end": 12,
+            "start": 7,
             "title": "Test B-2",
           },
         ],
@@ -163,8 +163,8 @@ Convey(\\"Test B-2\\", func() {
 	// code
 	// block
 })",
-        "end": 30,
-        "start": 17,
+        "end": 31,
+        "start": 18,
         "title": "Test B",
       },
     ],

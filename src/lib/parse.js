@@ -67,7 +67,7 @@ export const getFnBlockedContent = (source, fnNames = []) => {
             const [matchedRaw, , title, rawCode = ''] = result
             const code = unIndentString(rawCode)
             const matchedRawLines = matchedRaw.split(/\n/g)
-            const start = findLineNumber(matchedRawLines[0])
+            const start = findLineNumber(matchedRawLines[0]) + 1;
             const end = start !== null ? start + matchedRawLines.length - 1 : null
 
             results[fnName].push({
